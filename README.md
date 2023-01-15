@@ -14,7 +14,7 @@ The following are required to run the PokeClock:
 * JavaScript
 * PokeAPI
 ## Author
-* @Aaronelpis - Twitter
+* Aaronelpis - Twitter [@aaronelpis](https://twitter.com/Aaronelpis)
 ## Acknowledgments
 * PokeAPI for providing the Pokémon data.
 * PokeAPI/sprites for providing the Pokémon sprites.
