@@ -6,8 +6,8 @@ To use the PokeClock, clone the repository and open index.html in your browser.
 
 The following are required to run the PokeClock:
 
-A browser with JavaScript enabled.
-Internet connection to access the PokeAPI
+* A browser with JavaScript enabled.
+* Internet connection to access the PokeAPI
 Built With
 HTML
 CSS
