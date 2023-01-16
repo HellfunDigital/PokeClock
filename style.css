@@ -42,6 +42,7 @@ body {
   left: 0px;
   z-index: -1;
   opacity: .80;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #time {
@@ -148,12 +149,13 @@ footer img {
 footer p {
   display: inline-block;
   vertical-align: middle;
+  margin-right: auto;
 }
 
 
 /* wrap_btns */
 .wrap_btns{
-background-color: rgba(255, 255, 255, 0.2);
+  margin-right: auto;
 }
 
 .wrap_btns button{
@@ -163,8 +165,8 @@ background-color: rgba(255, 255, 255, 0.2);
   padding: 0px;
   border-radius: 0px 0px 10px 10px;
   color: white;
-text-align: justify;
-text-align: center;
+  text-align: justify;
+  text-align: center;
   cursor: pointer;
 }
 
