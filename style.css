@@ -149,23 +149,24 @@ footer img {
 footer p {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 130px;
+  margin-right: 140px;
 }
 
 
 /* wrap_btns */
 .wrap_btns {
   position: absolute;
-  top: 730px;
+  top: 728px;
   right: 25px;
   margin-right: auto;
 }
 
 .wrap_btns button{
-  background-color: black;
+  background-color: #154c79;
   width: 30px;
   height: 30px;
   padding: 0px;
+  margin: 2px;
   border-radius: 0px 0px 10px 10px;
   color: white;
   text-align: justify;
