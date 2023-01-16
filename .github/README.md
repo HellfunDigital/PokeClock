@@ -12,18 +12,18 @@ To use the PokeClock, clone the repository and open index.html in your browser.
 * A browser with JavaScript enabled.
 * Internet connection to access the PokeAPI
 
-### Built With
+#### Built With
 * HTML
 * CSS
 * JavaScript
 * PokeAPI
 
-### Author
+#### Author
 * Aaronelpis - Twitter [@aaronelpis](https://twitter.com/Aaronelpis)
 
-### Acknowledgments
+#### Acknowledgments
 * PokeAPI for providing the Pokémon data.
 * PokeAPI/sprites for providing the Pokémon sprites.
 
-### Licensing
+#### Licensing
 This project is licensed under the MIT License - see the LICENSE file for details.
