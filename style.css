@@ -1,7 +1,8 @@
 body {
   padding: 20px;
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
   align-items: center;
   line-height: 1;
   background-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pc.png);
@@ -11,6 +12,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: sans-serif;
+  cursor: move;
 }
 
 #clock {
