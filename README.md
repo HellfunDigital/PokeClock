@@ -8,15 +8,19 @@ The following are required to run the PokeClock:
 
 * A browser with JavaScript enabled.
 * Internet connection to access the PokeAPI
+
 ## Built With
 * HTML
 * CSS
 * JavaScript
 * PokeAPI
+
 ## Author
 * Aaronelpis - Twitter [@aaronelpis](https://twitter.com/Aaronelpis)
+
 ## Acknowledgments
 * PokeAPI for providing the Pokémon data.
 * PokeAPI/sprites for providing the Pokémon sprites.
+
 ## Licensing
 This project is licensed under the MIT License - see the LICENSE file for details.
