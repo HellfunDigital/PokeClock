@@ -1,8 +1,8 @@
 body {
   padding: 20px;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
   line-height: 1;
   background-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pc.png);
   background-size: cover;
@@ -11,6 +11,7 @@ body {
   margin: 0;
   /* overflow: hidden; */
   font-family: sans-serif;
+  cursor: move;
 }
 
 #clock {
@@ -161,4 +162,8 @@ background-color: rgba(255, 255, 255, 0.2);
   border-radius: 0px 0px 10px 10px;
   color: white;
   cursor: pointer;
+}
+
+.dragging * {
+  pointer-events: none;
 }
