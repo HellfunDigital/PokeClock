@@ -132,12 +132,12 @@ footer {
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #fff;
-  padding: 10px;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.7rem;
-  height: 10px;
+  height: 35px;
 }
 
 footer img {
@@ -149,12 +149,15 @@ footer img {
 footer p {
   display: inline-block;
   vertical-align: middle;
-  margin-right: auto;
+  margin-right: 130px;
 }
 
 
 /* wrap_btns */
-.wrap_btns{
+.wrap_btns {
+  position: absolute;
+  top: 730px;
+  right: 25px;
   margin-right: auto;
 }
 
@@ -173,3 +176,7 @@ footer p {
 .dragging * {
   pointer-events: none;
 }
+
+.btns{
+  position: absolute;
+  top:0;
