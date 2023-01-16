@@ -7,6 +7,8 @@ To use the PokeClock, clone the repository and open index.html in your browser.
 ## View Online
 * View in a No-Download Test Environment: [PokeClock](https://hellfundigital.github.io/PokeClock/)
 
+## Other Information
+
 #### The following are required to run the PokeClock:
 
 * A browser with JavaScript enabled.
