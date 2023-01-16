@@ -29,7 +29,7 @@ body {
   --background: url("https://www.serebii.net/pokemonshirts/shirts/491.jpg");
 }
 
-#clock::before {    
+#clock::before {
   content: "";
   background-image: var(--background);
   background-size: cover;
@@ -151,12 +151,14 @@ footer p {
 
 /* wrap_btns */
 .wrap_btns{
-  margin-top: 30px;
-  margin-top: 30px;
+background-color: rgba(255, 255, 255, 0.2);
 }
 
 .wrap_btns button{
+  background-color: black;
   width: 50px;
   padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
   cursor: pointer;
 }
