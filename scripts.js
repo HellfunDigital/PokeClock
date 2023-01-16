@@ -167,7 +167,7 @@ function getTypeColor(type) {
   }
 }
 
-// function changeBG
+// function changeBG.
 function changeBG(bgImage){
   let clock = document.querySelector("#clock").style.setProperty('--background', `url('${bgImage}')`);
 }
