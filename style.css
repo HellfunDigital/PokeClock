@@ -1,8 +1,7 @@
 body {
   padding: 20px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  display: flex;
+  /* justify-content: center; */
   align-items: center;
   line-height: 1;
   background-image: url(https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pc.png);
@@ -10,25 +9,37 @@ body {
   background-color: #002366;
   color: white;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: sans-serif;
-  cursor: move;
 }
 
 #clock {
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.1em black;
   border-radius: 10px 10px 0px 0px;
-  background-image: url("https://www.serebii.net/pokemonshirts/shirts/491.jpg"); /* add a background image */
   background-position: center;
+  position: relative;
   width: 358px;
   height: 670px;
   padding: 20px;
   align-items: center;
   text-align: center;
   color: white;
-  background-color: black;
   font-size: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  --background: url("https://www.serebii.net/pokemonshirts/shirts/491.jpg");
+}
+
+#clock::before {    
+  content: "";
+  background-image: var(--background);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: .80;
 }
 
 #time {
@@ -135,4 +146,17 @@ footer img {
 footer p {
   display: inline-block;
   vertical-align: middle;
+}
+
+
+/* wrap_btns */
+.wrap_btns{
+  margin-top: 30px;
+  margin-top: 30px;
+}
+
+.wrap_btns button{
+  width: 50px;
+  padding: 10px;
+  cursor: pointer;
 }

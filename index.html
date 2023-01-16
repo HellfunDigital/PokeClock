@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Pokemon Clock</title>
+    <title>Pokemon Clock V2</title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1"name="viewport">
     <link href="style.css"rel="stylesheet">
@@ -9,7 +9,8 @@
     <background-color: black;>
   </head>
   <body>
-    <div id="clock">
+
+    <div id="clock" data-bg="https://www.serebii.net/pokemonshirts/shirts/491.jpg">
       <div id="day"></div>
       <div id="time">
         <div id="hour"></div>
@@ -30,12 +31,21 @@
         </div>
         <img alt="Pokemon sprite" id="pokemon-sprite" style="position:relative">
 <div id="pokemon-id"></div><div id="pokemon-name"></div>
-      </div>
+    </div>
 
+    
     <footer>
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" alt="Pokeball">
-      <p><a href="https://github.com/HellfunDigital/PokeClock">PokeClock</a> Made by <a href="https://twitter.com/Aaronelpis">Aaronelpis</a></p>
+      <p>PokeClock - Made by <a href="https://twitter.com/Aaronelpis">Aaronelpis</a></p>
     </footer>
+
+    <div class="wrap_btns">
+      <button onclick="changeBG('bg-1.png')">1</button>
+      <button onclick="changeBG('bg-2.jpg')">2</button>
+      <button onclick="changeBG('bg-3.jpg')">3</button>
+      <button onclick="changeBG('bg-4.jpg')">4</button>
+    </div>
+
     <script src="scripts.js"></script>
   </body>
 </html>
