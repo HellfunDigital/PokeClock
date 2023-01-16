@@ -142,3 +142,42 @@ document.getElementById('pokemon-sprite').src = 'https://raw.githubusercontent.c
         return '#000000';
     }
   }
+
+  // Add global variables for tracking the mouse position
+let mouseX;
+let mouseY;
+let bodyX;
+let bodyY;
+let isDragging = false;
+
+// Get the body element
+const body = document.querySelector('body');
+
+// Add an event listener for the mousedown event on the body
+body.addEventListener('mousedown', e => {
+  // Update the mouse position variables
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+
+  // Update the body position variables
+  bodyX = parseInt(body.style.left) || 0;
+  bodyY = parseInt(body.style.top) || 0;
+
+  // Set the isDragging flag to true
+  isDragging = true;
+});
+
+// Add an event listener for the mousemove event on the document
+document.addEventListener('mousemove', e => {
+  // If the isDragging flag is true, update the body's position
+  if (isDragging) {
+    body.style.left = `${bodyX + e.clientX - mouseX}px`;
+    body.style.top = `${bodyY + e.clientY - mouseY}px`;
+  }
+});
+
+// Add an event listener for the mouseup event on the document
+document.addEventListener('mouseup', () => {
+  // Set the isDragging flag to false
+  isDragging = false;
+});
