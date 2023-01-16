@@ -1,6 +1,10 @@
-# PokeClock [v1.1.0]
+# PokeClock [v1.2.1]
+PokeClock is a clock application that displays the current time and date as well as a random Pokémon. There is a 1 in 4,096 chance for the Pokémon to be shiny. The clock updates every second and the Pokémon updates every minute.
 
-PokeClock is a clock application that displays the current time and date as well as a random Pokémon. There is a 1 in 4,096 chance for the Pokémon to be shiny. The clock updates every second and the Pokémon updates every minute. In this update, the clock is now draggable.
+#### Update 1.2.1
+##### New Features
+* 4 new backgrounds that you can change with buttons in the footer.
+* Drag and drop feature is added to move the clock around the screen.
 
 ## Getting started
 To use the PokeClock, clone the repository and open index.html in your browser.
