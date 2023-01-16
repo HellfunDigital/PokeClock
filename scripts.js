@@ -31,7 +31,7 @@ function updateClock() {
   var date = currentTime.getDate();
   var year = currentTime.getFullYear();
 
-  // Convert hours to 12-hour format.
+  // Convert hours to 12-hour format
   hours = hours > 12 ? hours - 12 : hours === 0 ? 12 : hours;
 
   // Add a leading zero to single-digit hours
