@@ -181,3 +181,8 @@ document.addEventListener('mouseup', () => {
   // Set the isDragging flag to false
   isDragging = false;
 });
+
+body.addEventListener('mousedown', e => {
+    e.preventDefault();
+    // your existing mousedown code here
+});
